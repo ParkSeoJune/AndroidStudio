@@ -1,4 +1,4 @@
-package com.example.myapplication2
+package com.example.Kotlin_basic
 
 // 01. Variable -> 변수
 // -> 상자

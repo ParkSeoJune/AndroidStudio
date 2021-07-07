@@ -1,4 +1,4 @@
-package com.example.myapplication2
+package com.example.Kotlin_basic
 
 // 02. 자료형
 // 정수형 -> Long > Int > Short > Byte

@@ -1,4 +1,4 @@
-package com.example.myapplication2
+package com.example.Kotlin_basic
 
 //04.함수
 //-어떤 input을 넣어주면 어떤 output 이 나오는것

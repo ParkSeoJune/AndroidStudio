@@ -1,4 +1,4 @@
-package com.example.myapplication2
+package com.example.Kotlin_basic
 
 fun plusThree(first: Int, second: Int, third: Int): Int {
     return first + second + third

@@ -1,4 +1,4 @@
-package com.example.myapplication2
+package com.example.Kotlin_basic
 
 fun main(array: Array<String>) {
     // 산술 연산자
