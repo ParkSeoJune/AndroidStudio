@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:background="@color/purple_200"
+        android:layout_height="300dp">
+
+    </ImageView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="50dp"
+        android:background="#80E4F1"
+        android:text="안녕하세요">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </TextView>
+
+</LinearLayout>
+    <!--틀을 잡을 때 부모레이아웃에서는 gravity를 사용!-->
+    <!--틀을 잡을 때 자식레이아웃에서는 layout_gravity를 사용!-->
+    <!-- android:orientation=""에서 vertical은 좌우, horizontal은 위아래 !-->
+    <!-- width는 폭, height는 길이 !-->
+    <!-- match_parent는 부모와 같게 한다.
+    wrap_content는 내용을 감쌀 수 있을 만큼의 크기
+    - 아래의 텍스트뷰에서 textSize를 줄이면 wrap_content로 인해 줄어든다
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:background="#80E4F1"
+        android:text="안녕하세요"/>
