@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/View1"
+        android:layout_centerInParent="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/View2"
+        android:layout_toRightOf="@id/View1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/View3"
+        android:layout_toRightOf="@id/View1"
+        android:layout_centerInParent="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#8BC34A"/>
+
+    <TextView
+        android:id="@+id/View4"
+        android:layout_toLeftOf="@id/View1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FF5722"/>
+
+    <TextView
+        android:id="@+id/View5"
+        android:layout_above="@id/View1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#03A9F4"/>
+
+    <TextView
+        android:id="@+id/View6"
+        android:layout_below="@+id/View1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFEB3B"/>
+</RelativeLayout>
+
+<!--
+     android:id="@+id/View1"
+     - View에 이름을 부여하는 코드
+
+     android:layout_toRightOf="@id/View1"
+     - View1을 기준으로 오른쪽으로 이동
+     - 단, 오른쪽으로 이동만하므로 View2가 View1옆으로 배치되지는 않는다
+     - android:layout_centerInParent="true"를 추가해야 옆으로 이동한다
+
+     android:layout_toLeftOf="@id/View1"
+     - View1을 기준으로 왼쪽으로 이동
+
+     android:layout_above="@id/View1"
+     - View1의 위로 배치하는 코드
+
+     android:layout_below="@+id/View1"
+     - View1의 아래로 배치하는 코드드
+
+
+
+
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#2196F3"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#009688"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#FFC107"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#8BC34A"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FF5722"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#3F51B5"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+<!-- 자식 레이아웃들을 상대적(어떤 기준)으로 배치를 해준다
+    android:layout_centerInParent="true"라는 코드는 부모의 뷰에서
+    가운데로 배치해주는 코드이다
+
+    android:layout_alignParentEnd="true"
+    - 끝으로 배치시키는 것 위의 코드를 보면 Right코드 위에 End가 겹침
+
+    android:layout_centerHorizontal="true"
+    - 수평의 중심으로 배치해주는 코드
+
+    android:layout_centerVertical="true"
+    - 수직의 중심으로 배치해주는 코드
+
+
+
+
+
