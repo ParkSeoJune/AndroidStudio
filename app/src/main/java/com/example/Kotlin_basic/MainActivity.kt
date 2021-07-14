@@ -6,6 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.final_practice)
+        setContentView(R.layout.final_practice_by_teacher)
     }
 }
