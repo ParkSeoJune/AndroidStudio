@@ -2,10 +2,13 @@ package com.example.Kotlin_basic
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_listener.*
 
 class Listener : AppCompatActivity() {
+    var number = 10
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_listener)
@@ -28,14 +31,22 @@ class Listener : AppCompatActivity() {
 //        })
 //
 //        // 3 -> 이름이 필요한 경우(click)
-//        val click = object : View.OnClickListener{
-//            override fun onClick(v: View?) {
-//                Log.d("click", "Click!")
-//            }
-//        }
-//
-//        hello.setOnClickListener(click)
+        val click = object : View.OnClickListener{
+            override fun onClick(v: View?) {
+                Log.d("click", "Click!")
+                hello.setText("안녕하세요")
+                image.setImageResource(R.drawable.heyhey)
+                number += 10
+                Log.d("number", "" + number)
+            }
+        }
 
+        hello.setOnClickListener(click)
+
+
+//        뷰를 조작하는 함수들
+//        1> setText
+//        2>
 
     }
 
