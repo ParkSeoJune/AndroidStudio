@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/MyApplication2/app/src/main/res/layout/activity_calculator1.xml" value="0.24974358974358973" />
         <entry key="..\:/Users/user/MyApplication2/app/src/main/res/layout/activity_intent.xml" value="0.12590579710144928" />
+        <entry key="..\:/Users/user/MyApplication2/app/src/main/res/layout/activity_intent2.xml" value="0.12335359675785208" />
         <entry key="..\:/Users/user/MyApplication2/app/src/main/res/layout/activity_listener.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/user/MyApplication2/app/src/main/res/layout/activity_open_internet.xml" value="0.25364583333333335" />
       </map>
     </option>
   </component>
