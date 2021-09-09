@@ -6,14 +6,17 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
+import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_open_internet.*
 
 class Open_Internet : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_open_internet)
+
+        val webView : WebView = findViewById(R.id.math)
+        webView.loadUrl("https://www.google.com/")
 
         page.setOnClickListener{
             val address = internet.text.toString()
