@@ -1,4 +1,4 @@
-package com.example.Kotlin_basic.안드로이드_UI
+package com.example.Kotlin_basic.안드로이드_grammar
 
 // 안드로이드에서 화면을 그리는 방법
 // - XML을 이용한다

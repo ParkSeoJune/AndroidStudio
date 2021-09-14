@@ -1,4 +1,4 @@
-package com.example.Kotlin_basic
+package com.example.Kotlin_basic.안드로이드_grammar
 
 // 06. 연산자
 
