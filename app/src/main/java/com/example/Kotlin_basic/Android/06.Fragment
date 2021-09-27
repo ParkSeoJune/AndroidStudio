@@ -23,3 +23,7 @@ Fragment
 사용방법
 - XML에 ViewComponent로 추가한다.
 - 코드(동적)로 추가한다.
+
+데이터 전달 방법
+- Activity -> Fragment : argument 와 bundle
+- Fragment -> Activity : 자체 구현(리스너 구현)
