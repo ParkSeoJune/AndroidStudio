@@ -13,17 +13,23 @@
         android:text="안녕하세요"
         android:textSize="50dp" />
 
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:name="com.example.Kotlin_basic.FragmentOne"
-        android:id="@+id/fragment_one" />
+<!--    <fragment-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:name="com.example.Kotlin_basic.FragmentOne"-->
+<!--        android:id="@+id/fragment_one" />-->
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="open"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invisible"/>
 
     <LinearLayout
         android:id="@+id/container"
