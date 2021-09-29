@@ -28,3 +28,6 @@ if(button != null) {
 사용방법
 button?.setOnClickListener // button이 Null이 아니라면 실행
 button!!.setOnClickListener
+
+Int, Float, Double, Class -> Null이 될 수 없는 타입
+Int?, Float?, Double?, Class? -> Null이 될 수 있음
